@@ -36,10 +36,7 @@ Step 3: Spawn a Bubble Room
 If intensity score > threshold:
 
 New RoomBubble is created:
-
-json
-Copy
-Edit
+```json
 {
   "room_id": "merge-721",
   "theme": "on-chain media rebellion",
@@ -47,6 +44,7 @@ Edit
   "participants": ["0xabc", "0xdef", ...],
   "origin_event": "tw33t-1337"
 }
+```
 Visualized as orb with orbiting bubbles (users)
 
 NFT-minted to allow re-entry, continuity
