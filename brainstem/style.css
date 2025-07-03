@@ -1,0 +1,40 @@
+body {
+    background-color: #000000;
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    border-bottom: 1px solid #00FF00;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+input, select, button, textarea {
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    border: 2px dashed #0f0;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.codeblock {
+    background-color: #001100;
+    padding: 1rem;
+    font-size: 0.9rem;
+    overflow: auto;
+}
