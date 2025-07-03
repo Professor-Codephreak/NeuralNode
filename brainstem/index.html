@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NeuralNode Interface</title>
+  <title>NeuralNode Interface | Professor Codephreak</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
 </head>
 <body>
   <h1>🧠 NeuralNode Interface – Professor Codephreak</h1>
 
+  <!-- Wallet Connection -->
+  <div class="container">
+    <h2>🔌 Wallet</h2>
+    <button onclick="connectWallet()">🔌 Connect Wallet</button>
+    <div class="codeblock" id="walletOutput"></div>
+  </div>
+
+  <!-- BubbleRoomV1 -->
   <div class="container">
     <h2>🧪 BubbleRoomV1</h2>
-    <button onclick="connectWallet()">🔌 Connect Wallet</button>
-    <button onclick="mintRoomV1()">🧬 Mint Room</button>
+    <button onclick="mintRoomV1()">🧬 Mint Room (V1)</button>
+    <button onclick="getParticipantsV1()">👥 Get Participants (V1)</button>
     <div class="codeblock" id="outputV1"></div>
   </div>
 
+  <!-- BubbleRoomV2 -->
   <div class="container">
     <h2>🕶️ BubbleRoomV2</h2>
-    <button onclick="transferOwnershipV2()">🔁 Transfer Ownership</button>
-    <button onclick="inviteToRoomV2()">📨 Invite to Room</button>
+    <button onclick="mintRoomV2()">🧬 Mint Room (V2)</button>
+    <button onclick="inviteToRoomV2()">📨 Invite to Room (V2)</button>
+    <button onclick="transferOwnershipV2()">🔁 Transfer Ownership (V2)</button>
+    <button onclick="getParticipantsV2()">👥 Get Participants (V2)</button>
     <div class="codeblock" id="outputV2"></div>
   </div>
 
+  <!-- BubbleRoomV3 -->
   <div class="container">
     <h2>🧱 BubbleRoomV3</h2>
-    <button onclick="mintVaultRoomV3()">🔐 Mint Vault Room</button>
-    <button onclick="checkAccessV3()">🔓 Check Access</button>
+    <button onclick="mintRoomV3()">🧬 Mint Room (V3)</button>
+    <button onclick="mintVaultRoomV3()">🔐 Mint Vault Room (V3)</button>
+    <button onclick="checkAccessV3()">🔓 Check Access (V3)</button>
+    <button onclick="getParticipantsV3()">👥 Get Participants (V3)</button>
     <div class="codeblock" id="outputV3"></div>
   </div>
 
