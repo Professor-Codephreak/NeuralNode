@@ -75,7 +75,7 @@ Sentiment match
 High velocity
 Wallets previously disconnected
 ```
-NEURONODE triggers:
+NEURODE triggers:
 
 🔮 Generated Room: w3-music-minting-hub-404
 Participants: 5
