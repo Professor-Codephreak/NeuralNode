@@ -44,13 +44,11 @@ Artists mint tracks as NFTs (ERC721 + metadata)
 Audio lives on IPFS, metadata links to:
 ```
 Preview sample
-
+```txt
 Full track (token-gated)
-
 Listener pays microstreams using Superfluid or per-play NFT tips
-
 Royalty split: % to artist, % to promoters
-
+```
 🔐 Crypto SSH: Wallet-to-Wallet Secure Communication
 Concept:
 Use ECDSA wallet signature as SSH-style handshake to open encrypted socket tunnel between users.
@@ -80,14 +78,12 @@ Admin list
 Join rules (token, invite, quest)
 ```
 Features:
+```txt
 Token-gated livestream
-
 Audio rooms
-
 Event calendar
-
 Bounties board
-
+```
 🛠️ Infra Skeleton
 ```txt
 Layer	Tool
