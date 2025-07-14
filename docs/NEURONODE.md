@@ -25,7 +25,7 @@ Use OpenAI embeddings or HuggingFace transformer to:
 Embed content in vector space
 Group into semantic similarity clusters
 Score intensity (volume, emotion, speed)
-      
+``` 
 Step 3: Spawn a Bubble Room
 If intensity score > threshold:
 
