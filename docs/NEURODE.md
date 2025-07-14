@@ -1,4 +1,4 @@
-# 🧠 NEURONODE: Dynamic AI-Driven Room Genesis
+# 🧠 NEURODE: Dynamic AI-Driven Room Genesis
 🔮 Concept
 Every interaction—TW33T, chat, reply, or react—emits a social frequency.
 AI listens to the frequencies.
