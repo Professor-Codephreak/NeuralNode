@@ -54,13 +54,13 @@ Merge = group of users cross-interacting intensely across rooms
 🛠️ Tech Stack
 Module	Tool
 ```txt
-Embedding/Clustering	OpenAI, HuggingFace, Pinecone
-Visualization	Three.js / Pixi.js / WebGPU
-Identity	TW33TPassportV2
-Storage	NFT.storage + IPFS
-NFT Room	BubbleRoom.sol (ERC721)
-Interactivity	WebRTC + libp2p
-Interaction Engine	Custom AI logic backend (Node + Vercel Serverless)
+Embedding/Clustering	      OpenAI, HuggingFace, Pinecone
+Visualization	              Three.js / Pixi.js / WebGPU
+Identity	                  TW33TPassportV2
+Storage	                    NFT.storage + IPFS
+NFT Room	                  BubbleRoom.sol (ERC721)
+Interactivity	              WebRTC + libp2p
+Interaction.Engine	        Custom AI logic backend (Node + Vercel Serverless)
 ```
 ✨ Example
 User A posts:
